@@ -11,4 +11,50 @@ header {
 nav{
     border: 1px red
 }
+.topheaderpic img{ 
+    width: 250px;
+    height: 275px;
 
+
+}
+ .topheaderpic {
+    position: relative;
+    display: inline-block;
+
+}
+.title{
+    width: 80%;
+    font-size: 5em;
+} 
+#jobtitle {
+font-size: 3rem;
+}
+
+
+header {
+    display: flex;
+}
+#dropdown {
+    position: relative;
+    display: inline-block;
+}
+.navmenu {
+    display: none;
+    position:absolute;
+    list-style-type: none;
+    text-align: center;
+    width: 10em;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+
+
+}
+#dropdown:hover .navmenu {
+    display: block
+;
+}
+li a:hover {
+background-color:  #4d0099;
+color: white;
+}
