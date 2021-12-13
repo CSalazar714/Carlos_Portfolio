@@ -2,18 +2,20 @@
     box-sizing: border-box;
     margin: 5px;
     padding: 5px;
-    border: 1px solid blue;
-}
+    border: 1px solid blue;} 
+
+@media (max-width: 600px) {}
+
 header {
-    border: 1px solid orange;
+    
 }
 
 nav{
     border: 1px red
 }
 .topheaderpic img{ 
-    width: 250px;
-    height: 275px;
+    width: 375px;
+    height: 325px;
 
 
 }
@@ -21,40 +23,106 @@ nav{
     position: relative;
     display: inline-block;
 
+
+}
+.titleSize {
+    width: 80%;
+    border-color: purple;
 }
 .title{
-    width: 80%;
-    font-size: 5em;
+    width: 100%;
+    font-size: 5.5em;
+    border-color: orange;
 } 
 #jobtitle {
-font-size: 3rem;
+font-size: 2.5rem;
+}
+#contactinfo {
+    font-size: 75%;
 }
 
 
 header {
     display: flex;
+    border-color: orchid;
 }
 #dropdown {
     position: relative;
     display: inline-block;
 }
+
+
 .navmenu {
-    display: none;
-    position:absolute;
+    display: none; 
+    
     list-style-type: none;
-    text-align: center;
-    width: 10em;
-    margin: 0px;
-    padding: 0px;
-    z-index: 1;
-
-
+    margin: auto;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    border-color: red;
+      
 }
 #dropdown:hover .navmenu {
-    display: block
-;
+    display: block;
+    border-color: red;
 }
+
 li a:hover {
 background-color:  #4d0099;
 color: white;
 }
+.paragraphs {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.about_me {
+    align-items: flex-start;
+    
+}
+
+.firstSection {
+    display: flex;
+    border-color: red;
+    background-color: silver;
+    border: 5px
+
+}
+.sectionTitle {
+    border-color: red;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+.description {
+    border-color: seagreen;
+    align-items: flex-end;
+}
+.fullAboutMe {
+    width: 50%;
+}
+.skillTitle {
+    display: flex;
+    display: table-row;
+    width: 100%;
+    height: 10%
+}
+.skillsList {
+    
+    flex-wrap: wrap;
+    display:flex ;
+    max-height: 200px;
+    justify-content: safe;
+    
+}
+
+.socialLogos {
+    display:flex;
+    align-items: center;
+    }
+    img{
+    height:150px;
+    width:150px;
+    }
+

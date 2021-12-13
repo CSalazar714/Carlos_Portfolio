@@ -20,7 +20,8 @@
         <!-- This is my portfolio image -->
        
 
-        <div> 
+        <div class="titleSize"> 
+
             <h1 class="title">
             Carlos Salazar
             <!-- This will include name -->
@@ -35,43 +36,44 @@
             <div id="dropdown">
                 <!-- div above is just for dropdown menu test -->
             <button type="button"> &#9776;</button>
-            <nav>
-                <!-- This will be a horizontal menu that opens to link to other sections of the portfolio -->
-                
-                <ul class="navmenu">
-                    <li><a href="#about_me"> About Me </a></li>
-                    <li><a href="#introvideo"> Intro </a></li>
-                    <li><a href="#experience"> Experience</a></li>
-                    <li><a href="#education">  Education</a></li>
-                    <li><a href="#skills"> Skills</a></li>
-                    <li><a href="#follow me"> FollowMe</a></li>
+            <nav class="navmenu">
+                <!-- This will be a horizontal menu that opens to link to other sections of the portfolio -->  
+                <li style= "display:inline"><a href="#about_me"> About Me </a></li>
+                <li style= "display:inline"><a href="#introvideo"> Intro </a></li>
+                <li style= "display:inline"><a href="#experience"> Experience</a></li>
+                <li style= "display:inline"><a href="#education">  Education</a></li>
+                <li style= "display:inline"><a href="#skills"> Skills</a></li>
+                <li style= "display:inline"><a href="#follow me"> FollowMe</a></li>
 
-                </ul>
+                
             </nav>
             </div>
         </div>
-
+        
         <!-- </section> -->
     </header>
+<div class="firstSection">
+    <!-- This is the div seperating first section together -->
 
     <div class="paragraphs">
         <!-- This is the first section below header that includes the About Me and intro Vid. -->
-        <div>
-            <h2 class="sectionTitle" id="about_me">
+        <div class="fullAboutMe">
+            <!-- fullAboutMe div is to seperate the about me text from video for formatting -->
+            <h2 class="sectionTitle about_me" id="about_me" > 
                 <!-- This will be the about me title -->
                 About Me
-                <p class="section">
-                    <!-- This will be the about me description -->
-                </p>
+                <h3 class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, voluptatum asperiores pariatur quibusdam ipsum explicabo, ipsa aspernatur eligendi fugit nihil obcaecati amet vero odit dignissimos quam! Necessitatibus non possimus cupiditate.</h3>
             </h2>
         </div>
-        <div id="introvideo">
-            <video>
+        
+                        <iframe width="650" height="450" src="https://www.youtube.com/embed/MQ-4R0GMU_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            
                 <!-- small intro video about 15-30s long -->
-            </video>
+            
 
-        </div>
+        
     </div>
+</div>
 
 
     <div class="paragraphs">
@@ -83,6 +85,7 @@
                 <!-- This will be the Experience Title -->
             </h2>
             <p class="section">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quidem fuga vitae veritatis, hic necessitatibus, qui assumenda eos optio nostrum non a corporis minus, itaque voluptates est numquam tenetur voluptatibus.
                 <!-- This will be my Experience information -->
             </p>
 
@@ -95,28 +98,33 @@
             </h2>
             <p class="section">
                 <!-- This will be the Education information -->
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat iusto id eum ut quaerat ab blanditiis dicta dignissimos cum assumenda laboriosam commodi debitis nemo, pariatur officia officiis, repellat provident omnis.
             </p>
 
         </div>
     </div>
 
 
-    <div class="paragraphs">
+    <div class="paragraphs skillTitle">
         <!-- This will be the third part with one part containing Skills section -->
-        <div>
+        
             <!-- This is the Skills section-->
             <h2 class="sectionTitle">
                 <!-- This is the Skills title -->
                 Skills
-            </h2>
-            <p class="section">
-                <!-- List of Skills below -->
-            <ul> Skill 1 </ul>
-            <ul> Skill 2 </ul>
-            <ul> Skill 3 </ul>
-            <ul> Skill 4 </ul>
+            </h2>                <!-- List of Skills below -->
 
-            </p>
+            <div class="skillsList">
+
+            <li> Excellent problem-solving skills </li>  
+            <li> Focus in customer support and satisfaction </li>
+            <li> Proficient in Office, Outlook, Teams, and Skype for Business </li>
+            <li> Experienced resolving networking problems including issues with TCP/IP, DHCP, DNS, and Communications </li>
+            <li> Bilingual in Spanish and English </li> 
+            <li> Experienced working with various sized teams including foreign teams.  </li> 
+            <li> Experienced working different shifts from morning to graveyard shifts.  </li> 
+
+        
         </div>
 
     </div>
@@ -131,7 +139,7 @@
             Socials
         </h2>
         <!-- This will have a section below the Socials title with 4 icons each leading to a different social site profile (Linkedin, GitHub, Facebook, Twitter) -->
-        <div class="socialLogos"> <img> </div>
+        <div class="socialLogos"> <img src="./images/githubLogo.png" alt="This is the logo for the website GitHub." > <a href="https://github.com/CSalazar714"></a> </div>
         <div class="socialLogos"> <img> </div>
         <div class="socialLogos"> <img> </div>
         <div class="socialLogos"> <img> </div>
