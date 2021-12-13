@@ -81,6 +81,9 @@ color: white;
     
 }
 
+.section {
+    font-family: Arial;
+}
 .about_me {
     align-items: flex-start;
     
@@ -136,5 +139,7 @@ color: white;
     }
     .registration_form {
         width: 75%;
+
+        background-color:rgb(46, 45, 45);
     }
 
