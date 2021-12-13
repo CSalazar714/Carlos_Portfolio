@@ -1,12 +1,16 @@
 *{
     box-sizing: border-box;
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid blue;} 
+    margin: 3px;
+    padding: 3px;
+   } 
+@media (min-width: 600px) {
 
+}
 @media (max-width: 600px) {}
 
 header {
+    background-color: rgb(26, 25, 25);
+    color: white;
     
 }
 
@@ -122,7 +126,14 @@ color: white;
     align-items: center;
     }
     img{
-    height:150px;
-    width:150px;
+    height:100px;
+    width:100px;
+    }
+    .Logos {
+        display: flex;
+
+    }
+    .registration_form {
+        width: 75%;
     }
 

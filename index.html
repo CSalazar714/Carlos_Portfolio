@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos Portfolio</title>
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
-
+    <base target="_blank">
 
 </head>
 
@@ -43,7 +43,7 @@
                 <li style= "display:inline"><a href="#experience"> Experience</a></li>
                 <li style= "display:inline"><a href="#education">  Education</a></li>
                 <li style= "display:inline"><a href="#skills"> Skills</a></li>
-                <li style= "display:inline"><a href="#follow me"> FollowMe</a></li>
+                <li style= "display:inline"><a href="#follow_me"> FollowMe</a></li>
 
                 
             </nav>
@@ -80,7 +80,7 @@
         <!-- This is the second section that includes 2 parts the Experience and Education information -->
         <div>
             <!-- This will be the Experience part -->
-            <h2 class="sectionTitle">
+            <h2 class="sectionTitle " id="experience"> 
                 Experience
                 <!-- This will be the Experience Title -->
             </h2>
@@ -92,7 +92,7 @@
         </div>
         <div>
             <!-- this will be the Education part -->
-            <h2 class="sectionTitle">
+            <h2 class="sectionTitle" id="education">
                 <!-- This will be the Education Title -->
                 Education
             </h2>
@@ -109,7 +109,7 @@
         <!-- This will be the third part with one part containing Skills section -->
         
             <!-- This is the Skills section-->
-            <h2 class="sectionTitle">
+            <h2 class="sectionTitle" id="skills">
                 <!-- This is the Skills title -->
                 Skills
             </h2>                <!-- List of Skills below -->
@@ -134,28 +134,33 @@
     <!-- This will have two sections one for socials and the other for them to leave contact information -->
     <div>
         <!-- This will be the Socials section -->
-        <h2 class="sectionTitle">
+        <h2 class="sectionTitle" id="follow_me">
             <!-- Socials Title -->
             Socials
         </h2>
+    
+    <div class="Logos">
         <!-- This will have a section below the Socials title with 4 icons each leading to a different social site profile (Linkedin, GitHub, Facebook, Twitter) -->
-        <div class="socialLogos"> <img src="./images/githubLogo.png" alt="This is the logo for the website GitHub." > <a href="https://github.com/CSalazar714"></a> </div>
-        <div class="socialLogos"> <img> </div>
-        <div class="socialLogos"> <img> </div>
-        <div class="socialLogos"> <img> </div>
+        <div class="socialLogos"> <a href="https://github.com/CSalazar714"> <img src="./images/githubLogo.png"  alt="This is the logo for the website GitHub." > </a> </div>
+        <div class="socialLogos"> <a href="https://www.linkedin.com/in/carlos-salazar-44072b100/"> <img src="./images/LinkedinLogo.jpg" alt="This is the logo for LinkedIn"> </a> </div>
+        <div class="socialLogos"> <a href="https://www.twitter.com">  <img src="./images/TwitterLogo.png" alt="This is the logo for Twitter" > </a> </div>
+        <div class="socialLogos"> <a href="https://www.facebook.com"> <img src="./images/facebookLogo.png" alt="This is the logo for Facebook"> </a> </div>
         <!-- above img are icons of the Socials -->
     </div>
+</div>
     <div>
         <!-- This will be the form for them to leave contact info for me to contact them -->
         <!-- This will be three form fields one for name, email and another for phone -->
         <h2 class="sectionTitle">
             Leave me your contact information!
         </h2>
+        
         <form>
-            <div id="registration-form">
+            <div class="registration-form">
                 <div class='formset'>
                     Wanna be Cool?!
                     <form action="#" autocomplete="on" method="post" data-validate="parsley">
+
                         <div class='row'>
                             <label for='firstname'>First Name</label>
                             <input type="text" placeholder="First Name" name='firstname' id='firstname'
